@@ -1,0 +1,16 @@
+# Python_praktikum
+Никитин Андрей Олегович ПИ20-3 Практикум по программированию
+
+Перед запуском программы нужно изменить домашнюю директорию в файле settings.py!!!  
+
+Команды файлового менеджера ("<" и ">" писать не нужно):
+
+1. quit - выход из файлового менеджера
+2. newfolder <folder name> - создать папку под именем "folder name"
+3. del <key> <folder/file name> - удалить папку или файл. Пример удаления папки: del -folder example_folder. Пример удаления файла: del -file file.txt
+4. to <path> - перейти в директорию "path". Можно указать относительный путь "to ./example_folder" или полный "to C:/Users/user/example_folder". Чтобы вернуться на одну папку назад нужно написать "to back"
+5. newfile <file name> - создать папку под именем "file name"
+6. same <file name> <path> - скопировать <file name> в путь <path>. Вместо path можно указать просто новое имя файла, и он будет скопирвоан в эту же директорию под новым именем.
+7. show <file name> - просмотреть содержимое файла <file name>
+8. send <text> <file name> - записать <text> в файл <file name>
+9. chpath <file name> <path/new_file_name> - переместить файл <file name> в папку <path> или переименовать файл <file name> в <new_file_name>
