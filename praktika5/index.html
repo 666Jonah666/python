@@ -1,0 +1,77 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <style type="text/css">
+      .h1.custom-h1 {
+        margin-top: 20px;
+      }
+      .carousel-inner.mg-top{
+        margin-top: 50px;
+      }
+    </style>
+    <title>Test Page</title>
+  </head>
+
+  <body>
+    <form action="/example/handler.php">
+      <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" onclick="javascript:window.location.reload();">Navbar</a>
+        </div>
+      </nav>
+    <div class="container">
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="mg-top carousel-inner" style=" width:100%; height: 315px;">
+          <div class="carousel-item active">
+            <img src="https://brentuning.com/wp-content/uploads/2018/10/a5986f183807410e73877a427b57452a1.jpg" class="d-block w-100" alt="first">
+          </div>
+          <div class="carousel-item">
+            <img src="https://2020.igem.org/wiki/images/8/85/T--TJUSLS_China--Team.png" class="d-block w-100" alt="second">
+          </div>
+          <div class="carousel-item">
+            <img src="https://hsto.org/files/c9e/78b/0a6/c9e78b0a6bf043368d97e06cb26047ab.png" class="d-block w-100" alt="third">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <h1 class="custom-h1 h1"><div class="text-center"><b>This is my custom index.html</b></div></h1>
+        <div class="row">
+          <div style="background-color: white; height: 20;"></div>
+          <div class="rounded-top" style="background-color: 212529; height: 10;"></div>
+          <div class="text-center" style="background-color: 212529; height: 40; color: white">Tell us something</div>
+          <div class="col-md-6 text-end" style="background-color: 212529; height: 40; color: white">ФИО</div>
+          <div class="col-md-6" style="background-color: 212529"><input placeholder="Иванов Иван Иванович"></div>
+          <div class="col-md-6 text-end" style="background-color: 212529; height: 40; color: white">Email</div>
+          <div class="col-md-6" style="background-color: 212529"><input type="email" placeholder="email@example.com"></div>
+          <div class="col-md-6 text-end" style="background-color: 212529; height: 40; color: white">Телефон</div>
+          <div class="col-md-6" style="background-color: 212529"><input type="tel" placeholder="+79991235464" pattern="+7[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"></div>
+          <div class="col-md-6 text-end" style="background-color: 212529; height: 40; color: white">Выберите опцию</div>
+          <div class="col-md-6" style="background-color: 212529; height: 40;">
+            <select>
+              <option value="1">RED</option>
+              <option value="2">GREEN</option>
+              <option value="3">BLUE</option>
+            </select>
+          </div>
+          <div class="col-md-6 text-end" style="background-color: 212529; height: 85; color: white">Выберите что-то одно</div>
+          <div class="col-md-6" style="background-color: 212529"><div style="color: white"><input name="option" type="radio"> Первое<br><input name="option" type="radio"> Второе<br><input name="option" type="radio"> Третье</div></div>
+          <div class="col-md-6 text-end" style="background-color: 212529; height: 90; color: white">Выберите несколько значений</div>
+          <div class="col-md-6" style="background-color: 212529"><div style="color: white"><input type="checkbox"> Первое<br><input type="checkbox"> Второе<br><input type="checkbox"> Третье</div></div>
+          <div class="col-md-6 text-end" style="background-color: 212529; height: 100; color: white">Выскажите свое мнение</div>
+          <div class="col-md-6" style="background-color: 212529"><textarea></textarea></div>
+          <div class="col-md-12 text-center rounded-bottom" style="background-color: 212529; height: 50;"><a href="submit.html" class="btn btn-light rounded-pill" type="submit" value="Submit">SUBMIT</a></div>
+        </div>
+      </div>
+    </form>
+  </body>
+
+</html>
