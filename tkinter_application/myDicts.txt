@@ -1,0 +1,2 @@
+{'username': 'andrey', 'passw': '123', 'b_date': '02/17/2001', 'gender': 'male', 'group': 'PI20-3'}
+{'username': 'john', 'passw': 'qwer', 'b_date': '06/19/2002', 'gender': 'male', 'group': 'PI20-3'}
